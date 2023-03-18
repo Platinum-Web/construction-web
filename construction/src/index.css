@@ -79,4 +79,16 @@ body {
     .navbar-nav {
         text-align: center;
     }
+
+    .carousel-caption {
+        bottom: 125px;
+    }
+
+    .carousel-caption h5 {
+        font-size: 17px;
+    }
+
+    .carousel-caption a {
+        padding: 10px 15px;
+    }
 }
