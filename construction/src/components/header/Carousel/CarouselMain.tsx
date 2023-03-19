@@ -1,12 +1,11 @@
 import Item1 from './Item1';
 import Item2 from './Item2';
 import Item3 from './Item3';
+import './css/CarouselStyling.css';
 
 function Carousel() {
   return (
     <div id="carouselExampleAutoplaying" className="carousel slide" data-bs-ride="carousel">
-
-
 
       <div className="carousel-inner">
         <Item1 />
