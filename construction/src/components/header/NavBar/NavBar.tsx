@@ -1,7 +1,8 @@
 import { Component, ReactNode } from "react";
 import { Link } from "react-router-dom";
 import "./css/NavbarStyling.css";
-import { MenuItems } from './/MenuItems';
+import "./css/buttonsStyling.css";
+import { MenuItems } from './TsFiles/MenuItems';
 class Navbar extends Component {
     state = { clicked: false };
     handleClick = () => {
@@ -11,8 +12,9 @@ class Navbar extends Component {
         return (
             <nav className="navbarItems">
 
-                <h1 className="navbar-logo"> <span className="text-warning"> PLATINUM </span> BUILDERS </h1>
-
+                <a href="/" id="navbar-link">
+                    <h1 className="navbar-logo"> <span className="text-warning"> Platinum </span> Builders </h1>
+                </a>
                 <div className="menu-icons" onClick={this.handleClick}>
                     <i className={this.state.clicked ? "fas fa-times" : "fas fa-bars"}></i>
                 </div>
@@ -29,7 +31,8 @@ class Navbar extends Component {
                             )
                         })
                     }
-                    <button>Schedule Service</button>
+                    <button id="schedule-btn">Schedule Service</button>
+                    <button id="request-estimate-btn">Request Estimate</button>
                 </ul>
 
             </nav>

@@ -9,13 +9,13 @@ export const MenuItems = [
         title: "Services",
         url: "/services",
         class_Name: "nav-links",
-        icon: "fa-solid fa-garage"
+        icon: "fa-solid fa-screwdriver-wrench"
     },
     {
         title: "Reviews",
         url: "/",
         class_Name: "nav-links",
-        icon: "fa-solid fa-message-lines"
+        icon: "fa-solid fa-comment"
     },
     {
         title: "Contact Us",
@@ -26,6 +26,6 @@ export const MenuItems = [
     {
         title: "Schedule Service",
         url: "/scheduleService",
-        class_Name: "nav-links-mobile",
+        class_Name: "nav-links-mobile"
     }
 ];

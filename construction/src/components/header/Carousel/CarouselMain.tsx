@@ -1,16 +1,13 @@
-import Item1 from './Item1';
-import Item2 from './Item2';
-import Item3 from './Item3';
+
 import './css/CarouselStyling.css';
+import CarouselInner from './CarouselInner';
 
 function Carousel() {
   return (
     <div id="carouselExampleAutoplaying" className="carousel slide" data-bs-ride="carousel">
 
       <div className="carousel-inner">
-        <Item1 />
-        <Item2 />
-        <Item3 />
+        <CarouselInner />
       </div>
 
       <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">

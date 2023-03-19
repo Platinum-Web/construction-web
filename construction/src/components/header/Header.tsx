@@ -10,7 +10,7 @@ function Header() {
                 <NavBar />
             </Routes> */}
             <NavBar />
-            {/* <CarouselMain /> */}
+            <CarouselMain />
         </>
     )
 }
