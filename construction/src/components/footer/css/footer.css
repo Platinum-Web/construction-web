@@ -1,0 +1,11 @@
+#num-link {
+    margin-left: 0.5rem;
+    text-decoration: none;
+    color: black;
+}
+
+.email a {
+    text-decoration: none;
+    margin-left: 0.5rem;
+    color: black;
+}

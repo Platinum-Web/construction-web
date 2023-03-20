@@ -6,9 +6,6 @@ import NavBar from "./NavBar/NavBar";
 function Header() {
     return (
         <>
-            {/* <Routes>
-                <NavBar />
-            </Routes> */}
             <NavBar />
             <CarouselMain />
         </>
