@@ -1,63 +1,49 @@
 export const ServicesItems = [
     {
-        heading: 'Broken Spring Replacement',
-        paragraph: 'Quick and reliable broken spring replacement service for your garage door to ensure its smooth operation and prevent further damage.'
+        title: 'Garage Door Installation',
+        paragraph: `Our experienced team will help you selecting the right type, style, and color of garage door to meet your needs and budget, and then installing it efficiently and securely to ensure smooth and reliable operation.`,
+        imageUrl: 'Images/servicesImgs/installation1.jpeg'
     },
     {
-        heading: 'Garage Door Repair',
-        paragraph: 'Quick and reliable broken spring replacement service for your garage door to ensure its smooth operation and prevent further damage.'
+        title: 'Garage Door Maintenance',
+        paragraph: `It's important to keep your garage door operating smoothly and reliably. Our maintenance service includes a comprehensive inspection of your garage door system, including the springs, cables and tracks`,
+        imageUrl: 'Images/servicesImgs/garage-door-installation-1.jpg'
     },
     {
-        heading: 'Garage Door Installation',
-        paragraph: 'Quick and reliable broken spring replacement service for your garage door to ensure its smooth operation and prevent further damage.'
+        title: 'Garage Door Opener Repair',
+        paragraph: `This involves repairing a garage door that is malfunctioning or damaged. This can include fixing broken springs, tracks, or cables, adjusting the door's alignment, or replacing damaged panels.`,
+        imageUrl: 'Images/servicesImgs/OpenerRepair1.jpeg'
     },
     {
-        heading: 'Garage Door Opener Repair',
-        paragraph: 'Quick and reliable broken spring replacement service for your garage door to ensure its smooth operation and prevent further damage.'
+        title: 'Garage Door Opener Installation',
+        paragraph: ` A new garage door opener can offer convenience and security for your home.Our installation service can help you choose the right type of opener for your garage door, whether it's a chain, belt, or screw drive. `,
+        imageUrl: 'Images/servicesImgs/OpenerInstallation1.jpeg'
     },
     {
-        heading: 'Garage Door Opener Installation',
-        paragraph: 'Quick and reliable broken spring replacement service for your garage door to ensure its smooth operation and prevent further damage.'
+        title: 'Garage Door Sensor Repair',
+        paragraph: `The safety sensors on your garage door are an important safety feature that prevent the door from closing if there is an obstruction in the way. If your sensors are not working properly, our repair service can help.`,
+        imageUrl: 'Images/servicesImgs/SensorRepair.png'
     },
     {
-        heading: 'Garage Door Maintenance',
-        paragraph: 'Quick and reliable broken spring replacement service for your garage door to ensure its smooth operation and prevent further damage.'
+        title: 'Garage Door Cable Replacement',
+        paragraph: `If your garage door springs are broken or worn out, they can be dangerous and cause your door to malfunction. Our spring replacement service can help restore the safety and reliability of your garage door.`,
+        imageUrl: 'Images/servicesImgs/CableReplacement.jpeg'
     },
     {
-        heading: 'Garage Door Cable Repair',
-        paragraph: 'Quick and reliable broken spring replacement service for your garage door to ensure its smooth operation and prevent further damage.'
+        title: 'Garage Door Spring Replacement',
+        paragraph: `If your garage door springs are broken or worn out, they can be dangerous and cause your door to malfunction. Our spring replacement service can help restore the safety and reliability of your garage door.`,
+        imageUrl: 'Images/servicesImgs/SpringReplacement.jpeg'
     },
     {
-        heading: 'Garage Door Panel Replacement',
-        paragraph: 'Quick and reliable broken spring replacement service for your garage door to ensure its smooth operation and prevent further damage.'
+        title: 'Garage Door Weatherstripping',
+        paragraph: `If your garage door springs are broken or worn out, they can be dangerous and cause your door to malfunction. Our spring replacement service can help restore the safety and reliability of your garage door.`,
+        imageUrl: 'Images/servicesImgs/DoorWeatherstripping .webp'
     },
     {
-        heading: 'Broken Spring Replacement',
-        paragraph: 'Quick and reliable broken spring replacement service for your garage door to ensure its smooth operation and prevent further damage.'
+        title: 'Garage Door Remote Programming',
+        paragraph: `Allows you to operate your garage door without the need for a physical key or button. This convenient technology saves you time and effort by allowing you to open and close your garage door with just the push of a button.`,
+        imageUrl: 'Images/servicesImgs/DoorRemoteProgramming.jpeg'
     },
-    {
-        heading: 'Garage Door Weatherstripping',
-        paragraph: 'Quick and reliable broken spring replacement service for your garage door to ensure its smooth operation and prevent further damage.'
-    },
-    {
-        heading: 'Garage Door Roller Replacement',
-        paragraph: 'Quick and reliable broken spring replacement service for your garage door to ensure its smooth operation and prevent further damage.'
-    },
-    {
-        heading: 'Garage Door Track Repair',
-        paragraph: 'Is the process of fixing or replacing the tracks that guide the door, allowing it to open and close smoothly and safely.'
-    },
-    {
-        heading: 'Garage Door Sensor Repair',
-        paragraph: 'Involves fixing or replacing the sensors that detect obstacles in the path of the garage door, ensuring safe and proper functioning of the door.'
-    },
-    {
-        heading: 'Garage Door Keypad Installation',
-        paragraph: 'Adding a device to the garage door opener that allows users to open and close the garage door by entering a code on the keypad.'
-    },
-    {
-        heading: 'Garage Door Remote Programming',
-        paragraph: 'Involves synchronizing the remote control with the garage door opener, allowing for convenient and easy operation of the garage door.'
-    },
+
 
 ]

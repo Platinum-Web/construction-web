@@ -3,7 +3,7 @@ import './css/Reviewstyling.css';
 function Review() {
 
     return (
-        <div className="container mt-5 animate__animated animate__fadeInUp animate__delay-1s" id='review'>
+        <div className="container mt-5 animate__animated animate__fadeInUp animate__delay-1s" id="review">
             <div className="row">
                 {
                     ReviewQuotes.map((_item, index) => {

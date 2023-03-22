@@ -1,5 +1,4 @@
 import { Component, ReactNode } from "react";
-import { Link } from "react-router-dom";
 import "./css/NavbarStyling.css";
 import "./css/buttonsStyling.css";
 import { MenuItems } from './TsFiles/MenuItems';
@@ -12,8 +11,9 @@ class Navbar extends Component {
         return (
             <nav className="navbarItems">
 
-                <a href="/" id="navbar-link">
-                    <h1 className="navbar-logo"> <span className="text-warning"> Platinum </span> Builders </h1>
+                <a href="/" className="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+                    <img className="bi me-3" width="70" height="50" src="Images/logo/logo-no-background.png" />
+                    <span className="fs-4 navbar-brand"> Platinum <span className="text-warning"> Builders </span></span>
                 </a>
                 <div className="menu-icons" onClick={this.handleClick}>
                     <i className={this.state.clicked ? "fas fa-times" : "fas fa-bars"}></i>
@@ -35,7 +35,7 @@ class Navbar extends Component {
                     <button id="request-estimate-btn">Request Estimate</button>
                 </ul>
 
-            </nav>
+            </nav >
         )
     }
 }

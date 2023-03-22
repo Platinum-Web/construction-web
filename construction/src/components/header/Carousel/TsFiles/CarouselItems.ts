@@ -1,7 +1,7 @@
 export const CarouselItems = [
     {
         heading: 'Garage door remote programming and replacement',
-        caption: 'Whether it is damaged from our team of expert recognizes the problem and can provide quick and reliable repair at your place.',
+        caption: 'Convenient and Affordable Garage Door Remote Solutions',
         img: 'Images/g6.jpeg'
     },
     {

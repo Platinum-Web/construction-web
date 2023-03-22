@@ -1,17 +1,8 @@
 import './css/footer.css';
 const Footer = () => {
     return (
-        // <div className="container" id='contacts'>
-        //     <footer className="row py-5 my-5 border-top justify-content-between">
-        //         <div className="col-12 col-sm-6 col-md-3 mb-3">
 
-        //         </div>
-
-        //     </footer>
-
-        // </div >
-
-        <div className="container">
+        <div className="container" id="contacts">
             <footer className="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
                 <p className="col-md-4 mb-0 text-muted"><span className="text-warning"> Platinum </span> Builders, Inc</p>
                 <div col-md-4 justify-content-between >

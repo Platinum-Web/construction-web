@@ -5,10 +5,10 @@ export const ReviewQuotes = [
     },
     {
         name: "Victoria Rose Martin",
-        message: "Amazing garage repair service! The team was prompt, professional, and fixed my garage in no time. I'm so happy with the quality of work and their excellent customer service. Highly recommend!"
+        message: "I recently had to get my garage door repaired, and I have to say the service was excellent. The technician arrived on time and was very professional and courteous. He quickly diagnosed the issue and explained what needed to be done to fix it. The repair was done in a timely manner, and my garage door now works perfectly."
     },
     {
         name: "Nicole Muscarella",
-        message: "I recently had to get some repairs done on my garage and I couldn't be happier with the service I received. The team was professional, efficient, and friendly throughout the entire process. They took the time to explain everything to me and make sure I was satisfied with the work they were doing. I highly recommend this garage repair service to anyone in need of quality work at a fair price."
+        message: "I recently had to get some repairs done on my garage and I couldn't be happier with the service I received. The team was professional, efficient, and friendly throughout the entire process. They took the time to explain everything to me and make sure I was satisfied with the work they were doing. I highly recommend this garage repair service to anyone."
     }
 ]
