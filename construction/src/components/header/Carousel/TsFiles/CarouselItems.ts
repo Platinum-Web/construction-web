@@ -1,6 +1,6 @@
 export const CarouselItems = [
     {
-        heading: 'Garage door remote programming and replacement',
+        heading: 'Garage door installation and spring replacement',
         caption: 'Convenient and Affordable Garage Door Remote Solutions',
         img: 'Images/g6.jpeg'
     },
