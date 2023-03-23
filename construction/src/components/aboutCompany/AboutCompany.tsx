@@ -1,10 +1,11 @@
+import { Company } from "../Const/const";
 function AboutCompany() {
     return (
-        <div className="p-5 mb-4 mt-5 bg-light rounded-3">
+        <div className="p-5 mb-4 mt-5 bg-light rounded-3" id="aboutUs">
             <div className="container py-5">
                 <div>
                     <img className="bi mb-2" width="160rem" height="100rem" src="Images/logo/logo-no-background.png" />
-                    <h1 className="display-5 fw-bold">Platinum Mind</h1>
+                    <h1 className="display-5 fw-bold">{Company.name}</h1>
                 </div>
                 <p className="col-md-11 fs-5">
                     At Platinum Builders, we specialize in providing top-quality garage solutions that cater to the specific needs

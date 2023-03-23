@@ -12,8 +12,8 @@ class Navbar extends Component {
             <nav className="navbarItems">
 
                 <a href="/" className="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
-                    <img className="bi me-3" width="70" height="50" src="Images/logo/logo-no-background.png" />
-                    <span className="fs-4 navbar-brand"> Platinum <span className="text-warning"> Builders </span></span>
+                    <img className="bi me-1" width="80" height="50" src="Images/logo/logo-no-background.png" />
+                    <span className="fs-5 navbar-brand"> ProTrack Garage <span className="text-warning"> Builders </span></span>
                 </a>
                 <div className="menu-icons" onClick={this.handleClick}>
                     <i className={this.state.clicked ? "fas fa-times" : "fas fa-bars"}></i>

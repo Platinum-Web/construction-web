@@ -1,4 +1,4 @@
 export const Company = {
-    name: 'Platinum Builder',
+    name: 'ProTrack Garage Builders',
     logo: 'Images/logo/logo-no-background.png'
 };

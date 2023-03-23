@@ -3,7 +3,7 @@ import Header from './components/header/Header';
 import CustomeExample from './components/aboutCompany/AboutCompany';
 import Review from './components/review/Review';
 import Services from './components/services/services';
-import Footer2 from './components/footer/Footer2';
+import Footer2 from './components/footer/Footer';
 
 
 function App() {
@@ -13,7 +13,7 @@ function App() {
             <Services />
             <CustomeExample />
             <Review />
-            <Footer2 />
+            <Footer />
         </div>
     )
 }
