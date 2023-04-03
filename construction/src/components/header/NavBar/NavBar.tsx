@@ -1,7 +1,9 @@
 import { Component, ReactNode } from "react";
 import "./css/NavbarStyling.css";
 import "./css/buttonsStyling.css";
+import { Link } from 'react-router-dom';
 import { MenuItems } from './TsFiles/MenuItems';
+
 class Navbar extends Component {
     state = { clicked: false };
     handleClick = () => {
@@ -31,8 +33,13 @@ class Navbar extends Component {
                             )
                         })
                     }
-                    <button id="schedule-btn">Schedule Service</button>
-                    <button id="request-estimate-btn">Request Estimate</button>
+
+                    <Link to="/schedule">
+                        <button id="schedule-btn">Schedule Service</button>
+                    </Link>
+                    <Link to="/estimate">
+                        <button id="request-estimate-btn">Request Estimate</button>
+                    </Link>
                 </ul>
 
             </nav >

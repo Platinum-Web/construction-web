@@ -22,7 +22,7 @@ function Footer() {
 
                         <div className="email mt-4">
                             <i className="fa-solid fa-envelope"></i>
-                            <a href="mailto:example@example.com">example@example.com</a>
+                            <a href={`mailto:{${Company.email}}`}>{Company.email}</a>
                         </div>
                     </div>
                 </ul>
