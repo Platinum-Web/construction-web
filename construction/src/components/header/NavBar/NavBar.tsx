@@ -2,7 +2,7 @@ import { Component, ReactNode } from "react";
 import "./css/NavbarStyling.css";
 import "./css/buttonsStyling.css";
 import { Link } from 'react-router-dom';
-import { MenuItems } from './TsFiles/MenuItems';
+import { Company } from '../../Const/const';
 
 class Navbar extends Component {
     state = { clicked: false };
@@ -14,7 +14,7 @@ class Navbar extends Component {
             <nav className="navbarItems">
 
                 <a href="/" className="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
-                    <img className="bi me-1" width="80" height="50" src="Images/logo/logo-no-background.png" />
+                    <img className="bi me-1" width="80" height="50" src={Company.logo} />
                     <span className="fs-5 navbar-brand"> ProTrack Garage <span className="text-warning"> Builders </span></span>
                 </a>
                 <div className="menu-icons" onClick={this.handleClick}>
@@ -34,18 +34,59 @@ class Navbar extends Component {
                         })
                     }
 
-                    <Link to="/schedule">
-                        <button id="schedule-btn">Schedule Service</button>
+                    <Link to="/schedule-service">
+                        <button id="schedule-btn" type="button">Schedule Service</button>
                     </Link>
-                    <Link to="/estimate">
-                        <button id="request-estimate-btn">Request Estimate</button>
+                    <Link to="/request-estimate">
+                        <button id="request-estimate-btn" type="button">Request Estimate</button>
                     </Link>
+
                 </ul>
 
             </nav >
+
         )
     }
 }
 
 
 export default Navbar;
+
+const MenuItems = [
+    {
+        title: "Home",
+        url: "/",
+        class_Name: "nav-links",
+        icon: "fa-solid fa-house-user"
+    },
+    {
+        title: "Services",
+        url: "/#services",
+        class_Name: "nav-links",
+        icon: "fa-solid fa-screwdriver-wrench"
+    },
+    {
+        title: "About Us",
+        url: "/#aboutUs",
+        class_Name: "nav-links",
+        icon: "fa-solid fa-users icon"
+    },
+    {
+        title: "Reviews",
+        url: "/#review",
+        class_Name: "nav-links",
+        icon: "fa-solid fa-comment"
+    },
+    {
+        title: "Contact Us",
+        url: "/#contacts",
+        class_Name: "nav-links",
+        icon: "fa-solid fa-address-book"
+    },
+    {
+        title: "Schedule Service",
+        url: "/#scheduleService",
+        class_Name: "nav-links-mobile"
+    }
+];
+
